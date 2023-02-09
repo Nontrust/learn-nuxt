@@ -1,7 +1,7 @@
 <template>
     <div>
-        <h1> 에러페이지 </h1>
-        <p>페이지를 찾을 수 없습니다.</p>
+        <h1>error</h1>
+        <p>page not found</p>
     </div>
 </template>
 

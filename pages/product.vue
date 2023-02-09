@@ -1,12 +1,14 @@
 <template>
     <div>
-        <p>main page</p>
+        <ul>
+            <li v-for="i in 3" :key="i">상품 {{i}}</li>
+        </ul>
     </div>
 </template>
 
 <script>
 export default {
-    name: 'LearnNuxtMain',
+    name: 'LearnNuxtProduct',
 
     data() {
         return {
