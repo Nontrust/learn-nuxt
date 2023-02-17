@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "json-server --watch db.json -p 4000 | echo cd ./learn-nuxt/ | npm run dev",
+    "dev": "json-server --watch db.json -p 4000",
+    "dev-work": "json-server --watch db.json | echo cd ./learn-nuxt/ | npm run dev",
     "generate": "json-server generate.js"
   },
   "keywords": [],

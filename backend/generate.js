@@ -2,6 +2,7 @@ module.exports = function () {
   const faker = require('faker')
   const _ = require('lodash')
   return {
+    name: 'backend',
     products: _.times(30, function (n) {
       return {
         id: n,

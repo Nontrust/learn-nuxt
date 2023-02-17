@@ -5,13 +5,16 @@
 </template>
 
 <script>
+import axios from 'axios'
 export default {
     name: 'LearnNuxtMain',
-
     data() {
         return {
             
         };
+    },
+    created(){
+        // axios.get('http')
     },
 
     mounted() {

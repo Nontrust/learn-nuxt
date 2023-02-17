@@ -2,6 +2,7 @@
 
 Do Learn Nuxt.js SPA Application Framework
 
+[reference by @joshua1988 learn-nuxt](https://github.com/joshua1988/learn-nuxt)
 # Version Info
 
 ![nuxt](https://img.shields.io/badge/Nuxt.js@v2.16.0-00DC82?.style=flat-square&logo=Nuxt.js&logoColor=white)
@@ -49,4 +50,17 @@ After install create-nuxt-app
 cd <project-folder path>
 npm run dev
 # package.json -> scripts -> dev
+```
+
+## Set mock api json-server 
+### [download To](https://github.com/joshua1988/learn-nuxt/tree/master/backend)
+`unzip and copy folder ${download}/backend path to ${workspace}/backend`
+
+## Set npm workspace
+Set New dir and npm workspace
+
+
+```bash
+npm init -w ./backend
+npm -w backend run dev
 ```
