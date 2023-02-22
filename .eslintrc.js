@@ -12,8 +12,9 @@ module.exports = {
   plugins: [],
   // add your custom rules here
   rules: {
-    "vue/multi-word-component-names": ["error",{
-      "ignores": ["default", "Login"]
-    }]
+    'vue/multi-word-component-names': ['error',{
+      'ignores': ['default', 'Login']
+    }],
+    'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off', // 추가
   },
 }
