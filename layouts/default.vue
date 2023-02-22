@@ -1,19 +1,17 @@
 <template>
     <div>
         <header>
-            <h1>{{ $route.name }} Page</h1>
-            <nuxt-link to="/">home</nuxt-link>
-            <nuxt-link to="/main">main</nuxt-link>
-            <nuxt-link to="/product">product</nuxt-link>
+            <h1>
+                <nuxt-link to ="/">Nuxt Shopping</nuxt-link>
+            </h1>
         </header>    
-    <Nuxt />
+        <Nuxt />
     </div>
 </template>
 
 <script>
 export default {
     name: 'LearnNuxtDefault',
-
     data() {
         return {
             
@@ -25,7 +23,6 @@ export default {
     },
 
     methods: {
-        
     },
 };
 </script>
