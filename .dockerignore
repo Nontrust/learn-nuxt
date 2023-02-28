@@ -1,0 +1,14 @@
+# ignore build files
+dist/
+node_modules/
+npm-debug*
+.nuxt
+
+# ignore develop files
+.idea
+.git
+.gitignore
+
+# ignore docker target files
+.dockerignore
+Dockerfile
