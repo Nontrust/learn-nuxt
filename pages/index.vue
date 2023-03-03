@@ -10,7 +10,7 @@
                 </li>
             </ul>
             <div class="cart-wrapper">
-                <button class="btn" >장바구니 바로가기</button>
+                <button class="btn" @click="moveToCartPage">장바구니 바로가기</button>
             </div>
         </main>
     </div>
@@ -52,6 +52,9 @@ export default {
     async searchProducts()  {
       const response = await fetchProductByKeyword(this.searchKeyword)
       this.products = randomImageSetter(response.data)
+    },
+    moveToCartPage(){
+      this.$router.push('/cart')
     }
 	},
 };
