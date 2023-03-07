@@ -37,7 +37,17 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+    // https://github.com/nuxt-community/localforage-module
+    '@nuxtjs/localforage',
   ],
+
+  localStorage:{
+    driver: 'indexedDB', // use IndexedDB
+    name: 'learn-store',
+    version: 1.0,
+    storeName: 'localForage',
+    description: 'learn IndexedDB for permanent state managing'
+  },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
