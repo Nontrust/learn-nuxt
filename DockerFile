@@ -16,5 +16,7 @@ RUN cd backend
 
 RUN npm install && npm run build
 
+EXPOSE 3000
+
 # start the app
 CMD [ "npm", "run" , "start" ]
